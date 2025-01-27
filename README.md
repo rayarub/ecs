@@ -5,7 +5,7 @@ Performance, zero/small memory allocations/footprint, no dependencies on any gam
 
 > **Important!** Ecs core API **not thread safe** and will never be! If you need multithread-processing - you should implement it on your side as part of ecs-system.
 
-> **Important!** No new features, bugfixes only! For new features you can check [EcsLite](https://github.com/Leopotam/ecslite).
+> **Important!** No new features, bugfixes only! For new features you can check [EcsLite](https://github.com/LeoECSCommunity/ecslite).
 
 # Table of content
 * [Socials](#socials)
@@ -39,15 +39,15 @@ Performance, zero/small memory allocations/footprint, no dependencies on any gam
 ## As unity module
 This repository can be installed as unity module directly from git url. In this way new line should be added to `Packages/manifest.json`:
 ```
-"com.leopotam.ecs": "https://github.com/Leopotam/ecs.git",
+"com.leopotam.ecs": "https://github.com/LeoECSCommunity/ecs.git",
 ```
 By default last released version will be used. If you need trunk / developing version then `develop` name of branch should be added after hash:
 ```
-"com.leopotam.ecs": "https://github.com/Leopotam/ecs.git#develop",
+"com.leopotam.ecs": "https://github.com/LeoECSCommunity/ecs.git#develop",
 ```
 
 ## As source
-If you can't / don't want to use unity modules, code can be downloaded as sources archive of required release from [Releases page](`https://github.com/Leopotam/ecs/releases`).
+If you can't / don't want to use unity modules, code can be downloaded as sources archive of required release from [Releases page](`https://github.com/LeoECSCommunity/ecs/releases`).
 
 # Main parts of ecs
 
@@ -288,7 +288,7 @@ systems.SetRunSystemState (idx, false);
 ## Unity
 > Tested on unity 2019.1 (not dependent on it) and contains assembly definition for compiling to separate assembly file for performance reason.
 
-[Unity editor integration](https://github.com/Leopotam/ecs-unityintegration) contains code templates and world debug viewer.
+[Unity editor integration](https://github.com/LeoECSCommunity/ecs-unityintegration) contains code templates and world debug viewer.
 
 
 ## Custom engine
@@ -374,14 +374,14 @@ class EcsStartup {
 * ["Natives"](https://alex-kpojb.itch.io/natives-ecs)
 
 # Extensions
-* [Unity editor integration](https://github.com/Leopotam/ecs-unityintegration)
-* [Unity uGui events support](https://github.com/Leopotam/ecs-ui)
-* [Multi-threading support](https://github.com/Leopotam/ecs-threads)
+* [Unity editor integration](https://github.com/LeoECSCommunity/ecs-unityintegration)
+* [Unity uGui events support](https://github.com/LeoECSCommunity/ecs-ui)
+* [Multi-threading support](https://github.com/LeoECSCommunity/ecs-threads)
 * [SharpPhysics2D](https://github.com/7Bpencil/sharpPhysics/tree/LeoECS)
 * [UniLeo - Unity scene data converter](https://github.com/voody2506/UniLeo)
 * [Unity Physx events support](https://github.com/supremestranger/leoecs-physics)
-* [Service locator](https://github.com/Leopotam/globals)
-* [Engine independent types](https://github.com/Leopotam/ecs-types)
+* [Service locator](https://github.com/LeoECSCommunity/globals)
+* [Engine independent types](https://github.com/LeoECSCommunity/ecs-types)
 
 # License
 The software released under the terms of the [MIT license](./LICENSE.md).
